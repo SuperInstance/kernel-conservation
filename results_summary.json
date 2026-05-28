@@ -1,0 +1,87 @@
+{
+  "spectral": {
+    "Music_\u03b2=0.1": {
+      "trace": 47.72234260936287,
+      "eff_rank": 47.72234260936287,
+      "participation_ratio": 49.98291576455236
+    },
+    "Music_\u03b2=1.0": {
+      "trace": 31.883685761894224,
+      "eff_rank": 31.883685761894224,
+      "participation_ratio": 47.992970774214015
+    },
+    "Music_\u03b2=10.0": {
+      "trace": 3.993750336898943,
+      "eff_rank": 3.993750336898943,
+      "participation_ratio": 6.644294084374803
+    },
+    "Random_\u03b2=0.1": {
+      "trace": 47.59311413473366,
+      "eff_rank": 47.59311413473366,
+      "participation_ratio": 49.98928249398496
+    },
+    "Random_\u03b2=1.0": {
+      "trace": 30.83112283390498,
+      "eff_rank": 30.83112283390498,
+      "participation_ratio": 48.857032114343845
+    },
+    "Random_\u03b2=10.0": {
+      "trace": 1.635344555549854,
+      "eff_rank": 1.635344555549854,
+      "participation_ratio": 2.6248214430413457
+    },
+    "Conservation_\u03b2=0.1": {
+      "trace": 46.10037070698252,
+      "eff_rank": 46.10037070698252,
+      "participation_ratio": 49.977051005550315
+    },
+    "Conservation_\u03b2=1.0": {
+      "trace": 22.765791914496265,
+      "eff_rank": 22.765791914496265,
+      "participation_ratio": 45.86564375915293
+    },
+    "Conservation_\u03b2=10.0": {
+      "trace": 2.831058583383778,
+      "eff_rank": 2.831058583383778,
+      "participation_ratio": 3.0121095256943646
+    }
+  },
+  "svm": {
+    "heat_beta=0.1": {
+      "mean": 1.0,
+      "std": 0.0,
+      "scores": "[1. 1. 1. 1. 1.]"
+    },
+    "heat_beta=1.0": {
+      "mean": 1.0,
+      "std": 0.0,
+      "scores": "[1. 1. 1. 1. 1.]"
+    },
+    "heat_beta=10.0": {
+      "mean": 0.8,
+      "std": 0.06666666666666667,
+      "scores": "[0.75       0.91666667 0.75       0.75       0.83333333]"
+    }
+  },
+  "perturbation": {
+    "cons_mean": 0.003482191226831371,
+    "rand_mean": 0.005050334429248785,
+    "p_value": 0.008511573714738041,
+    "hypothesis": true
+  },
+  "multiscale": {
+    "max_sep_beta": 22.229964825261934,
+    "max_separation": 1.6392304978919476,
+    "small_beta_sep": 0.029043254377566483,
+    "mid_beta_sep": 0.27496547812296007,
+    "large_beta_sep": 0.8374300641815456
+  },
+  "kpca": {
+    "pca_sil": 0.4279002115726832,
+    "pca_ari": 0.5379789242858013,
+    "kpca_sil": 0.7557675893917035,
+    "kpca_ari": 0.06834293508497999,
+    "heat_kpca_sil": 0.5967716602827887,
+    "heat_kpca_ari": 0.6163031864747659
+  }
+}
